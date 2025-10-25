@@ -1,19 +1,28 @@
 # Student Affairs Management System (Oracle Forms Project)
 
-This repository contains Oracle Forms modules developed during an internship for student affairs management.
+This repository contains a **Student Affairs Management System** developed using **Oracle Forms and PL/SQL** during an internship.
 
-## Modules
-- XXSZ_OGRENCI.fmb — Student management
-- XXSZ_FAKULTE_BOLUM.fmb — Faculty & department overview
-- XXSZ_BOLUM_EKLE.fmb — Add department
-- XXSZ_OGRENCI_EKLE.fmb — Add student
-- XXSZ_OGRENCI_DERS_NOT.fmb — Manage course grades
-- XXSZ_SINAV_NOT.fmb — Manage exam grades
+## Project Overview
+The system manages university data including **faculties, departments, students, courses, exams, and grades**.  
+It integrates multiple Oracle Forms modules (`XXSZ_OGRENCI`, `XXSZ_FAKULTE_BOLUM`, `XXSZ_BOLUM_EKLE`, `XXSZ_OGRENCI_EKLE`, `XXSZ_OGRENCI_DERS_NOT`, `XXSZ_SINAV_NOT`) to provide a seamless administrative experience.
 
-## How to open
-These are Oracle Forms binary modules (.fmb). Open them with Oracle Forms Builder (same version used for development).
+## Key Features
+- Add, update, and manage **students, faculties, and departments**  
+- Assign students to courses and record **exam/grade data**  
+- Validate and maintain **data consistency**  
+- User-friendly **Oracle Forms interface** for all modules  
+- Integration between modules for accurate data management  
+
+## Used Technologies
+- **Oracle Forms 12c**  
+- **Oracle Database**  
+- **PL/SQL**  
+
+## How to Open
+All `.fmb` files are binary Oracle Forms modules.  
+Open them using **Oracle Forms Builder** (matching the version used for development).  
+SQL scripts and PL/SQL packages can be run via Oracle SQL Developer if available.
 
 ## Notes
-- Binary form files cannot be displayed as source on GitHub.
-- Add any SQL scripts or PL/SQL source files here if available.
-
+- Binary `.fmb` files cannot be viewed as source code on GitHub.  
+- Keep all modules in the same folder for proper project integration.
